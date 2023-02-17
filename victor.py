@@ -18,3 +18,4 @@ print(type(data))
 # data = yf.download(options, start="2012-01-01")['Adj Close']
 
 st.line_chart(data)
+st.line_chart(options)
